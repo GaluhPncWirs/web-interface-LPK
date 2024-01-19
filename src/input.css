@@ -237,5 +237,13 @@
         grid-area: img-lg/xl-2;
     }
 
+    #mode:checked ~ label div.switch {
+        @apply translate-x-4 bg-white
+    }
+
+    #mode:checked ~ label div.ubah-bg{
+        @apply bg-slate-700 ring-offset-white
+    }
+
 
 }
