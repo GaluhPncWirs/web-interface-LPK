@@ -238,11 +238,23 @@
     }
 
     #mode:checked ~ label div.switch {
-        @apply translate-x-4 bg-white
+        @apply translate-x-6 bg-white
     }
 
     #mode:checked ~ label div.ubah-bg{
         @apply bg-slate-700 ring-offset-white
+    }
+
+    #mode:checked ~ label .ubah-bg .switch span {
+        @apply text-black
+    }
+
+    .ubah-bg .switch span{
+        user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
     }
 
 

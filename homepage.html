@@ -24,18 +24,20 @@
                     <li class="relative garis-bawah hover:before:w-full"><a href="#magang">Program</a></li>
                     <li class="relative garis-bawah hover:before:w-full"><a href="gallery.html">Gallery</a></li>
                     <li class="relative garis-bawah hover:before:w-full"><a href="#contact">Contact</a></li>
-                    <li class="mr-10">
-                        <div class="flex gap-1 mr-16 items-center">
-                            <span class="font-normal mr-1">Light</span>
+                    <li>
+                        <div class="flex md:mr-12 items-center">
                             <div class="relative">
                                 <input type="checkbox" id="mode" class="absolute hidden">
                                 <label for="mode">
-                                    <div class="ubah-bg h-6 w-10 relative cursor-pointer rounded-xl ring-1 ring-slate-500 ring-offset-1 ring-offset-black">
-                                        <div class="switch h-4 w-4 bg-slate-900 absolute rounded-full top-1 ml-1 transition duration-300 ease-in-out"></div>
+                                    <div class="ubah-bg h-[30px] w-14 relative cursor-pointer rounded-3xl ring-1 ring-slate-500 ring-offset-1 ring-offset-black">
+                                        <div class="switch h-6 w-6 bg-slate-900 absolute rounded-full top-[3px] ml-1 transition duration-300 ease-in-out">
+                                            <span class="material-symbols-outlined text-white dark-mode w-0 h-0">
+                                            light_mode
+                                            </span>
+                                        </div>
                                     </div>
                                 </label>
                             </div>
-                            <span class="font-normal ml-1">Dark</span>
                         </div>
                     </li>
                 </ul>
@@ -506,8 +508,32 @@
     modeHp.addEventListener('click', function() {
         modeHp.classList.toggle('active');
         navGeser.classList.toggle('geser');
-        blur_main.classList.toggle('blur');
+        // blur_main.classList.toggle('blur');
     });
+
+    const mode = document.querySelector("#mode")
+    const darkMode = document.querySelector('.dark-mode')
+    const html = document.querySelector('html')
+    mode.addEventListener("click", ()=>{
+        if(mode.checked){
+            darkMode.textContent = "dark_mode"
+            html.classList.add('dark')
+            localStorage.theme = "dark"
+        }else{
+            darkMode.textContent = "light_mode"
+            html.classList.remove("dark")
+            localStorage.theme = "light"
+        }
+    })
+
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+
+
+
 
 
 </script>
