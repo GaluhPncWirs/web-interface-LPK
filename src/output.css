@@ -1128,9 +1128,14 @@ nav ul.geser {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
-.bg-slate-700{
+.bg-\[\#fb7185\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+  background-color: rgb(251 113 133 / var(--tw-bg-opacity));
+}
+
+.bg-red-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -1545,14 +1550,22 @@ nav ul.geser {
   visibility: visible;
 }
 
-:is(.dark .dark\:bg-white){
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+:is(.dark .dark\:hidden){
+  display: none;
 }
 
-:is(.dark .dark\:bg-slate-700){
+:is(.dark .dark\:bg-slate-600){
   --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-transparent){
+  background-color: transparent;
+}
+
+:is(.dark .dark\:bg-slate-500){
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px){
