@@ -6,15 +6,15 @@
 
 @layer base {
     table,tr,td,th {
-        @apply border-2 border-collapse border-black capitalize
+        @apply border-2 border-collapse border-black capitalize dark:border-slate-300
     }
 
     tr:nth-child(odd) {
-        @apply bg-neutral-300
+        @apply bg-neutral-300 dark:bg-slate-500
     }
 
     tr:nth-child(even) {
-        @apply bg-neutral-400
+        @apply bg-neutral-400 dark:bg-slate-700
     }
 }
 
@@ -31,6 +31,7 @@
         height: 4px;
         bottom: -5px;
         left: 0px;
+        @apply dark:bg-slate-200;
         border-radius: 10px;
         transition: .3s ease-in-out;
     }
@@ -143,12 +144,14 @@
 
     /* untuk responsive */
     .small {
-        @apply absolute right-0 top-0 flex-col items-center justify-center pl-3 pt-5 gap-12 h-screen w-[40%] bg-cyan-400 -z-20 translate-x-full transition duration-500 ease-in-out
+        @apply absolute right-0 top-0 flex-col items-center justify-center pl-3 pt-5 gap-12 h-screen w-[40%] bg-slate-100 dark:bg-slate-700 -z-20 translate-x-full transition duration-500 ease-in-out
     }
 
     .all {
-        @apply translate-x-0 h-0 top-4 bg-inherit flex-row z-10
+        @apply translate-x-0 h-0 top-4 bg-inherit flex-row z-10 
     }
+
+
 
     /* untuk gallery */
 
