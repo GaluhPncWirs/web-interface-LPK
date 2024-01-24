@@ -4,8 +4,16 @@ const blur_main = document.querySelector("main");
 modeHp.addEventListener("click", function () {
   modeHp.classList.toggle("active");
   navGeser.classList.toggle("geser");
-  // blur_main.classList.toggle('blur');
+  // blur_main.classList.toggle("blur");
 });
+
+// window.addEventListener("resize", () => {
+//   if (window.innerWidth >= 640) {
+//     blur_main.classList.remove("blur");
+//   } else if (window.innerWidth === 650) {
+//     blur_main.classList.add("blur");
+//   }
+// });
 
 const mode = document.querySelector("#mode");
 const darkMode = document.querySelector(".dark-mode");
