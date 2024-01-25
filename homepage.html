@@ -14,15 +14,15 @@
     <!-- navbar -->
     <nav>
         <div class="flex justify-between bg-slate-100 w-full z-40 fixed shadow-xl dark:bg-slate-700">
-            <div class="bg-cyan-400 flex items-center sm:w-full sm:pl-3 md:w-[35%] md:rounded-tr-2xl md:rounded-br-2xl md:justify-center md:pl-0 xl:w-[30%] dark:bg-slate-500">
+            <div class="bg-cyan-400 flex items-center w-full pl-3 md:w-[35%] md:rounded-tr-2xl md:rounded-br-2xl md:justify-center md:pl-0 xl:w-[30%] dark:bg-slate-500">
                 <img src="/img/logo-ohayo-nipon.png" alt="logo-ohayo-nipon">
             </div>
             <div class="flex items-center justify-center">
-                <ul class="flex font-semibold sm:small md:all md:gap-6 md:mr-12 lg:mr-8 lg:gap-9 xl:gap-10 xl:mr-6 xl:text-lg dark:text-slate-100">
+                <ul class="flex font-semibold small md:all md:gap-6 md:mr-12 lg:mr-8 lg:gap-9 xl:gap-10 xl:mr-6 xl:text-lg dark:text-slate-100">
                     <li class="relative garis-bawah hover:before:w-full"><a href="#home">Home</a></li>
                     <li class="relative garis-bawah hover:before:w-full"><a href="#about">About</a></li>
                     <li class="relative garis-bawah hover:before:w-full"><a href="#magang">Program</a></li>
-                    <li class="relative garis-bawah hover:before:w-full"><a href="gallery.html">Gallery</a></li>
+                    <li class="relative garis-bawah hover:before:w-full"><a href="gallery.html" target="_blank">Gallery</a></li>
                     <li class="relative garis-bawah hover:before:w-full"><a href="#contact">Contact</a></li>
                     <li>
                         <div class="flex md:mr-12 items-center">
@@ -43,7 +43,7 @@
                 </ul>
             </div>
             <!-- hamburger menu (khusus hp) -->
-            <button id="mode-hp" name="mode-hp" type="button" class="md:hidden lg:hidden xl:hidden 2xl:hidden absolute z-50 sm:block sm:right-7 sm:top-0 sm:bottom-0 ">
+            <button id="mode-hp" name="mode-hp" type="button" class=" md:hidden lg:hidden xl:hidden 2xl:hidden absolute z-50 block right-7 top-0 bottom-0 ">
                 <span class="hamburger-menu transition duration-500 ease-in-out origin-top-left"></span>
                 <span class="hamburger-menu transition duration-500 ease-in-out"></span>
                 <span class="hamburger-menu transition duration-500 ease-in-out origin-bottom-left"></span>
@@ -54,12 +54,12 @@
     <main>
         <!-- hero section -->
         <section id="home">
-            <div style="background-image: url('/img/hero-section.jpg');" class="bg-no-repeat bg-cover bg-top relative top-[74px] min-h-[580px] flex items-center sm:justify-start lg:justify-end">
-                <div class="max-w-[610px] text-slate-200 sm:pl-8">
-                    <h1 class="mb-5 font-semibold sm:text-3xl md:text-4xl xl:text-5xl">
+            <div style="background-image: url('/img/hero-section.jpg');" class="bg-no-repeat bg-cover bg-top relative top-[74px] min-h-[580px] flex items-center justify-start lg:justify-end">
+                <div class="max-w-[610px] text-slate-200 pl-8">
+                    <h1 class="mb-5 font-semibold text-3xl md:text-4xl xl:text-5xl">
                         Selamat Datang di Official Website LPK Ohayo Nippon
                     </h1>
-                    <h3 class="font-medium sm:text-base md:text-lg">
+                    <h3 class="font-medium text-base md:text-lg">
                         Dapatkan kesempatan terbaik, untuk magang dan bekerja Ke jepang bersama kami. Pelajari Bahasa, Culture serta pengetahuan lain seputar Negeri Jepang
                     </h3>
                 </div>
@@ -69,8 +69,8 @@
         <!-- about us -->
         <section id="about">
             <div class="pt-28 pb-10 bg-rose-400 px-6 dark:bg-slate-700">
-                <h1 class="text-center font-bold mb-10 sm:text-3xl md:text-4xl xl:text-5xl dark:text-slate-100">Tentang Kami</h1>
-                <div class="flex gap-5 w-full justify-center mb-10 sm:flex-col md:items-center xl:flex-row-reverse xl:items-start">
+                <h1 class="text-center font-bold mb-10 text-3xl md:text-4xl xl:text-5xl dark:text-slate-100">Tentang Kami</h1>
+                <div class="flex gap-5 w-full justify-center mb-10 flex-col md:items-center xl:flex-row-reverse xl:items-start">
                     <img src="/img/fotbar.jpg" alt="foto-bareng" class="block rounded-2xl shadow-2xl basis-1/3 md:w-3/4 md:mt-4 xl:w-1/2">
                     <div class="font-normal text-base basis-2/3 lg:-order-1 dark:text-slate-100">
                         <p>
@@ -87,24 +87,24 @@
                     </div>
                 </div>
                 <div class="w-[90%] mx-auto pt-4">
-                    <h3 class="font-semibold text-center sm:text-lg md:text-xl xl:text-2xl dark:text-slate-100">
+                    <h3 class="font-semibold text-center text-lg md:text-xl xl:text-2xl dark:text-slate-100">
                         LPK OHAYO NIPPON Indonesia meyakini bahwa Program Pengembangan Usaha Mandiri melalui Pemagangan ke Jepang dapat memberi manfaat, di antara lain
                     </h3>
-                    <ul class="flex mt-10 justify-center gap-5 font-semibold capitalize sm:flex-col sm:text-base sm:items-center lg:text-lg lg:flex-row lg:gap-3 xl:gap-5 dark:text-slate-100">
-                        <li class="flex items-center text-center bg-emerald-300 dark:bg-slate-500 rounded-3xl relative sm:min-h-[100px] sm:max-w-[70%] sm:pt-4 sm:px-2 md:max-w-[50%] lg:px-1 lg:py-5 lg:pt-10 xl:max-w-[30%] xl:py-11">
-                            <span class="material-symbols-outlined absolute sm:top-2 left-0 right-0">
+                    <ul class="flex mt-10 justify-center gap-5 font-semibold capitalize flex-col text-base items-center lg:text-lg lg:flex-row lg:gap-3 xl:gap-5 dark:text-slate-100">
+                        <li class="flex items-center text-center bg-emerald-300 dark:bg-slate-500 rounded-3xl relative min-h-[100px] max-w-[70%] pt-4 px-2 md:max-w-[50%] lg:px-1 lg:py-5 lg:pt-10 xl:max-w-[30%] xl:py-11">
+                            <span class="material-symbols-outlined absolute top-2 left-0 right-0">
                                 how_to_reg
                             </span>
                             Melahirkan Pengusaha muda yang mandiri, kreatif dan berdaya Saing
                         </li>
-                        <li class="flex items-center text-center relative bg-sky-400 dark:bg-slate-500 rounded-3xl sm:min-h-[100px] sm:max-w-[70%] sm:py-7 sm:px-5 sm:pt-9 md:max-w-[50%] lg:px-1 lg:py-5 lg:pt-10 xl:max-w-[30%]">
-                            <span class="material-symbols-outlined absolute sm:top-2 left-0 right-0">
+                        <li class="flex items-center text-center relative bg-sky-400 dark:bg-slate-500 rounded-3xl min-h-[100px] max-w-[70%] py-7 px-5 pt-9 md:max-w-[50%] lg:px-1 lg:py-5 lg:pt-10 xl:max-w-[30%]">
+                            <span class="material-symbols-outlined absolute top-2 left-0 right-0">
                                 work_alert
                             </span>
                             Mendorong pertumbuhan ekonomi daerah yang dapat berkontribusi mengurangi angka pengangguran nasional
                         </li>
-                        <li class="flex items-center text-center bg-fuchsia-500 dark:bg-slate-500 rounded-3xl relative sm:min-h-[100px] sm:max-w-[70%] sm:pt-4 sm:px-2 md:max-w-[50%] lg:px-1 lg:py-5 lg:pt-10 xl:max-w-[30%] xl:py-11">
-                            <span class="material-symbols-outlined absolute sm:top-2 left-0 right-0">
+                        <li class="flex items-center text-center bg-fuchsia-500 dark:bg-slate-500 rounded-3xl relative min-h-[100px] max-w-[70%] pt-4 px-2 md:max-w-[50%] lg:px-1 lg:py-5 lg:pt-10 xl:max-w-[30%] xl:py-11">
+                            <span class="material-symbols-outlined absolute top-2 left-0 right-0">
                                 monitoring
                             </span>
                             Meningkatkan daya saing produk nasional pada pasar Internasional
@@ -114,13 +114,13 @@
 
                 <!-- story pendiri lpk -->
                 <div class="mt-12">
-                    <h1 class="text-center font-bold mb-5 sm:text-lg md:text-xl lg:text-2xl dark:text-slate-100">LPK Ohayo Nippon Story</h1>
+                    <h1 class="text-center font-bold mb-5 text-lg md:text-xl lg:text-2xl dark:text-slate-100">LPK Ohayo Nippon Story</h1>
                     <div class="mb-5">
                         <img src="" alt=""> buat gambar
                     </div>
                     <div>
                         <div class="mb-4 font-medium garis-horizontal relative dark:text-slate-100">
-                            <h2 class="sm:text-lg">Pendiri LPK Ohayo Nippon</h2>
+                            <h2 class="text-lg">Pendiri LPK Ohayo Nippon</h2>
                             <h3>Eki Candra</h3>
                         </div>
                         <div class="text-base mt-7 dark:text-slate-100">
@@ -142,10 +142,10 @@
 
         <!-- program magang -->
         <section id="magang">
-            <div class="bg-cyan-600 sm:py-40 lg:pt-52 xl:pt-60 dark:bg-slate-600">
+            <div class="bg-cyan-600 py-40 lg:pt-52 xl:pt-60 dark:bg-slate-600">
                 <div class="w-[90%] mx-auto">
-                    <h1 class="text-center font-bold mb-14 sm:text-3xl md:text-4xl xl:text-5xl dark:text-slate-100">Program Kami</h1>
-                    <h2 class="font-semibold mb-7 sm:text-xl md:text-2xl dark:text-slate-100">1. Program Magang</h2>
+                    <h1 class="text-center font-bold mb-14 text-3xl md:text-4xl xl:text-5xl dark:text-slate-100">Program Kami</h1>
+                    <h2 class="font-semibold mb-7 text-xl md:text-2xl dark:text-slate-100">1. Program Magang</h2>
                     <div class="grid grid-cols-3 grid-rows-2 gap-2 text-white">
                         <div style="background-image: url('https://source.unsplash.com/350x350/?nurse');" class="img-grid">
                             <a href="" class="text-mid">Perawat</a>
@@ -168,9 +168,9 @@
                     </div>
                     
                     <!-- persyaratan -->
-                    <div class="my-10 flex gap-5 sm:flex-col dark:text-slate-100">
-                        <div class="basis-1/3 sm:pl-4">
-                            <h2 class="font-semibold mb-5 sm:text-xl md:text-2xl">Persyaratan</h2>
+                    <div class="my-10 flex gap-5 flex-col dark:text-slate-100">
+                        <div class="basis-1/3 pl-4">
+                            <h2 class="font-semibold mb-5 text-xl md:text-2xl">Persyaratan</h2>
                             <ol class="list-decimal leading-relaxed">
                                 <li>Minimal lulusan SMA/SMK Sederajat</li>
                                 <li>Pria/Wanita</li>
@@ -186,7 +186,7 @@
                             </ol>
                         </div>
                         <div class="basis-2/3">
-                            <h2 class="font-semibold mb-5 sm:text-xl md:text-2xl">Langkah Dasar Program Magang Kerja Teknis</h2>
+                            <h2 class="font-semibold mb-5 text-xl md:text-2xl">Langkah Dasar Program Magang Kerja Teknis</h2>
                             <div class="leading-normal">
                                 <h4 class="font-medium my-2">1-4 Bulan Kursus Bahasa Jepang</h4>
                                 <ul>
@@ -223,7 +223,7 @@
 
                     <!-- 3 jalan menuju jepang -->
                     <div class="mt-14 dark:text-slate-100">
-                        <h2 class="mb-14 text-center font-semibold capitalize sm:text-xl md:text-2xl xl:text-3xl">3 jalan menuju jepang</h2>
+                        <h2 class="mb-14 text-center font-semibold capitalize text-xl md:text-2xl xl:text-3xl">3 jalan menuju jepang</h2>
                         <table class="text-sm lg:text-base">
                             <tr>
                                 <th>item</th>
@@ -385,12 +385,12 @@
         <!-- contac us -->
         <section id="contact">
             <div class="bg-blue-300 dark:bg-slate-700">
-                <div class="h-full w-[90%] mx-auto md:pt-56 sm:pt-32">
+                <div class="h-full w-[90%] mx-auto md:pt-56 pt-32">
                     <div class="px-4 dark:text-slate-100">
                         <div class="max-w-2xl mx-auto text-center mb-16">
-                            <h2 class="font-semibold mb-4 sm:text-3xl lg:text-4xl">Contact Us
+                            <h2 class="font-semibold mb-4 text-3xl lg:text-4xl">Contact Us
                             </h2>
-                            <p class="font-medium sm:text-base lg:text-lg">Hubungi kami untuk mendapatkan informasi terbaru dari LPK Ohayo Nippon
+                            <p class="font-medium text-base lg:text-lg">Hubungi kami untuk mendapatkan informasi terbaru dari LPK Ohayo Nippon
                             </p>
                         </div>
                     </div>
@@ -431,7 +431,7 @@
             <div class="bg-[#2B2A4C] pt-48 h-full">
                 <div class="flex justify-around items-center flex-wrap min-h-[500px] max-w-[90%] mx-auto gap-10">
                     <div>
-                        <h2 class="text-[#7C93C3] font-bold sm:text-2xl xl:text-3xl dark:text-slate-100">Layanan Kami</h2>
+                        <h2 class="text-[#7C93C3] font-bold text-2xl xl:text-3xl dark:text-slate-100">Layanan Kami</h2>
                         <ul class="text-[#9BB8CD] mt-3 text-base dark:text-slate-100">
                             <li><a href="#" class="hover:underline">Kursus Bahasa Jepang</a></li>
                             <li><a href="#" class="hover:underline">Rental Mobil</a></li>
@@ -439,7 +439,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="text-[#7C93C3] font-bold sm:text-2xl xl:text-3xl dark:text-slate-100">Jam Kerja</h2>
+                        <h2 class="text-[#7C93C3] font-bold text-2xl xl:text-3xl dark:text-slate-100">Jam Kerja</h2>
                         <ul class="text-[#9BB8CD] mt-3 text-base dark:text-slate-100">
                             <li>Senin - Jumat : 9 Pagi s.d 5 Sore </li>
                             <li>Minggu : Tutup</li>
@@ -448,11 +448,11 @@
                         </ul>
                     </div>
                     <div class="max-w-[14rem] pl-4">
-                        <h2 class="text-[#7C93C3] font-bold sm:text-2xl xl:text-3xl dark:text-slate-100">Alamat</h2>
+                        <h2 class="text-[#7C93C3] font-bold text-2xl xl:text-3xl dark:text-slate-100">Alamat</h2>
                         <p class="text-[#9BB8CD] mt-3 text-base dark:text-slate-100">Perumahan Bumi Cikarang Asri No. 10 Ciantra Cikarang Selatan Bekasi, Jawa Barat 17530</p>
                     </div>
                     <div>
-                        <h2 class="text-[#7C93C3] sm:text-2xl font-bold mb-4 xl:text-3xl dark:text-slate-100">Follow Us</h2>
+                        <h2 class="text-[#7C93C3] text-2xl font-bold mb-4 xl:text-3xl dark:text-slate-100">Follow Us</h2>
                         <div class="flex">
                             <a href="https://twitter.com/" target="_blank" class="atur-url">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" fill="currentColor" class="atur-svg text-gray-400 hover:grayscale-0 hover:text-black">

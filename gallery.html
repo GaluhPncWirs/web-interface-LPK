@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LPK Ohayo Nippon - Gallery</title>
     <link href="dist/output.css" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
     <link href="src/input.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -13,11 +14,11 @@
     <!-- navbar -->
     <nav>
         <div class="flex justify-between bg-slate-100 w-full z-40 fixed shadow-xl">
-            <div class="bg-cyan-400 flex items-center sm:w-full sm:pl-3 md:w-[35%] md:rounded-tr-2xl md:rounded-br-2xl md:justify-center md:pl-0 xl:w-[30%]">
+            <div class="bg-cyan-400 flex items-center w-full pl-3 md:w-[35%] md:rounded-tr-2xl md:rounded-br-2xl md:justify-center md:pl-0 xl:w-[30%]">
                 <img src="/img/logo-ohayo-nipon.png" alt="logo-ohayo-nipon">
             </div>
             <div class="flex items-center justify-center">
-                <ul class="flex font-semibold sm:small md:all md:gap-6 md:mr-12 lg:mr-8 lg:gap-9 xl:gap-10 xl:mr-6 xl:text-lg">
+                <ul class="flex font-semibold small md:all md:gap-6 md:mr-12 lg:mr-8 lg:gap-9 xl:gap-10 xl:mr-6 xl:text-lg">
                     <li class="relative garis-bawah hover:before:w-full"><a href="homepage.html">Home</a></li>
                     <li class="relative garis-bawah hover:before:w-full"><a href="#about">About</a></li>
                     <li class="relative garis-bawah hover:before:w-full"><a href="#magang">Program</a></li>
@@ -26,7 +27,7 @@
                 </ul>
             </div>
             <!-- hamburger menu (khusus hp) -->
-            <button id="mode-hp" name="mode-hp" type="button" class="md:hidden lg:hidden xl:hidden 2xl:hidden absolute z-50 sm:block sm:right-7 sm:top-0 sm:bottom-0 ">
+            <button id="mode-hp" name="mode-hp" type="button" class=" md:hidden lg:hidden xl:hidden 2xl:hidden absolute z-50 block right-7 top-0 bottom-0 ">
                 <span class="hamburger-menu transition duration-500 ease-in-out origin-top-left"></span>
                 <span class="hamburger-menu transition duration-500 ease-in-out"></span>
                 <span class="hamburger-menu transition duration-500 ease-in-out origin-bottom-left"></span>
@@ -39,33 +40,33 @@
         <section>
             <div>
                 <div style="background-image: url(img/untuk_hero_section_gallery.jpg);" class="bg-no-repeat bg-cover bg-center relative top-[74px] min-h-[580px] flex justify-center items-center">
-                    <h1 class="font-bold sm:text-3xl md:text-4xl">Gallery</h1>
+                    <h1 class="font-bold text-3xl md:text-4xl">Gallery</h1>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="bg-emerald-300 sm:py-32">
+            <div class="bg-emerald-300 py-32">
                 <div class="w-[90%] mx-auto">
-                    <h2 class="text-center font-bold mb-10 sm:text-2xl md:text-3xl">kegiatan Para Murid</h2>
-                    <div class="sm:grid-gallery-small sm:flex sm:justify-center sm:items-center sm:flex-col md:grid md:grid-gallery-medium">
-                        <img src="img/kegiatan-belajar.jpg" alt="kegiatan-belajar" class="sm:w-10/12 md:w-full md:img-md-1 rounded-lg shadow-xl">
-                        <img src="img/kegiatan-belajarmengajar.jpg" alt="kegiatan-belajarmengajar" class="sm:w-10/12 md:w-full md:img-md-2 shadow-xl rounded-lg">
-                        <img src="img/kegiatan-olahraga.jpg" alt="kegiatan-olahraga" class="sm:w-10/12 md:w-full md:img-md-3 md:h-1/2 rounded-lg shadow-xl">
+                    <h2 class="text-center font-bold mb-10 text-2xl md:text-3xl">kegiatan Para Murid</h2>
+                    <div class="grid-gallery-small flex justify-center items-center flex-col md:grid md:grid-gallery-medium">
+                        <img src="img/kegiatan-belajar.jpg" alt="kegiatan-belajar" class="w-10/12 md:w-full md:img-md-1 rounded-lg shadow-xl">
+                        <img src="img/kegiatan-belajarmengajar.jpg" alt="kegiatan-belajarmengajar" class="w-10/12 md:w-full md:img-md-2 shadow-xl rounded-lg">
+                        <img src="img/kegiatan-olahraga.jpg" alt="kegiatan-olahraga" class="w-10/12 md:w-full md:img-md-3 md:h-1/2 rounded-lg shadow-xl">
                     </div>
 
-                    <h2 class="text-center font-bold mt-14 mb-10 sm:text-2xl">Fasilitas Yang Ada di LPK</h2>
-                    <div class="sm:grid-gallery-small sm:flex sm:justify-center sm:items-center sm:flex-col md:grid md:grid-gallery-medium-fasilitas">
-                        <img src="img/mesh-murid-tampak-luar.jpg" alt="kegiatan-belajar" class="sm:w-10/12 md:img-fasilitas-md-1 rounded-lg shadow-xl">
-                        <img src="img/mesh-murid.jpg" alt="kegiatan-belajarmengajar" class="sm:w-10/12 md:img-fasilitas-md-2 rounded-lg shadow-xl">
-                        <img src="img/ruangan-admin.jpg" alt="kegiatan-olahraga" class="sm:w-10/12 md:img-fasilitas-md-3 rounded-lg shadow-xl">
-                        <img src="img/tempat-olahraga.jpg" alt="kegiatan-olahraga" class="sm:w-10/12 md:img-fasilitas-md-4 rounded-lg shadow-xl">
+                    <h2 class="text-center font-bold mt-14 mb-10 text-2xl">Fasilitas Yang Ada di LPK</h2>
+                    <div class="grid-gallery-small flex justify-center items-center flex-col md:grid md:grid-gallery-medium-fasilitas">
+                        <img src="img/mesh-murid-tampak-luar.jpg" alt="kegiatan-belajar" class="w-10/12 md:img-fasilitas-md-1 rounded-lg shadow-xl">
+                        <img src="img/mesh-murid.jpg" alt="kegiatan-belajarmengajar" class="w-10/12 md:img-fasilitas-md-2 rounded-lg shadow-xl">
+                        <img src="img/ruangan-admin.jpg" alt="kegiatan-olahraga" class="w-10/12 md:img-fasilitas-md-3 rounded-lg shadow-xl">
+                        <img src="img/tempat-olahraga.jpg" alt="kegiatan-olahraga" class="w-10/12 md:img-fasilitas-md-4 rounded-lg shadow-xl">
                     </div>
                 </div>
             </div>
         </section>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="absolute svg-color-4">
             <path fill="#6ee7b7" fill-opacity="1" d="M0,128L21.8,128C43.6,128,87,128,131,154.7C174.5,181,218,235,262,256C305.5,277,349,267,393,261.3C436.4,256,480,256,524,240C567.3,224,611,192,655,170.7C698.2,149,742,139,785,144C829.1,149,873,171,916,192C960,213,1004,235,1047,224C1090.9,213,1135,171,1178,176C1221.8,181,1265,235,1309,245.3C1352.7,256,1396,224,1418,208L1440,192L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path>
         </svg>
 
@@ -74,7 +75,7 @@
             <div class="bg-[#2B2A4C] pt-48 h-full">
                 <div class="flex justify-around items-center flex-wrap min-h-[500px] max-w-[90%] mx-auto gap-10">
                     <div>
-                        <h2 class="text-[#7C93C3] font-bold sm:text-2xl xl:text-3xl">Layanan Kami</h2>
+                        <h2 class="text-[#7C93C3] font-bold text-2xl xl:text-3xl">Layanan Kami</h2>
                         <ul class="text-[#9BB8CD] mt-3 text-base">
                             <li><a href="#" class="hover:underline">Kursus Bahasa Jepang</a></li>
                             <li><a href="#" class="hover:underline">Rental Mobil</a></li>
@@ -82,7 +83,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="text-[#7C93C3] font-bold sm:text-2xl xl:text-3xl">Jam Kerja</h2>
+                        <h2 class="text-[#7C93C3] font-bold text-2xl xl:text-3xl">Jam Kerja</h2>
                         <ul class="text-[#9BB8CD] mt-3 text-base">
                             <li>Senin - Jumat : 9 Pagi s.d 5 Sore </li>
                             <li>Minggu : Tutup</li>
@@ -91,11 +92,11 @@
                         </ul>
                     </div>
                     <div class="max-w-[14rem] pl-4">
-                        <h2 class="text-[#7C93C3] font-bold sm:text-2xl xl:text-3xl">Alamat</h2>
+                        <h2 class="text-[#7C93C3] font-bold text-2xl xl:text-3xl">Alamat</h2>
                         <p class="text-[#9BB8CD] mt-3 text-base">Perumahan Bumi Cikarang Asri No. 10 Ciantra Cikarang Selatan Bekasi, Jawa Barat 17530</p>
                     </div>
                     <div>
-                        <h2 class="text-[#7C93C3] sm:text-2xl font-bold mb-4 xl:text-3xl">Follow Us</h2>
+                        <h2 class="text-[#7C93C3] text-2xl font-bold mb-4 xl:text-3xl">Follow Us</h2>
                         <div class="flex">
                             <a href="https://twitter.com/" target="_blank" class="atur-url">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" fill="currentColor" class="atur-svg text-gray-400 hover:grayscale-0 hover:text-black">
@@ -126,8 +127,8 @@
                     </div>
                 </div>
                 <hr class="mx-5">
-                <div class="py-4 text-[#7C93C3] text-sm flex justify-around flex-wrap items-center max-w-[90%] mx-auto gap-6">
-                    <h3>Created By <span class="font-semibold text-slate-300">Galuh panca wirasa</span> Framework Used <span class="text-blue-400 font-semibold">Tailwind CSS </span>&reg;</h3>
+                <div class="py-4 text-[#7C93C3] text-sm flex justify-around flex-wrap items-center max-w-[90%] mx-auto gap-3">
+                    <h3>Created By <span class="font-semibold text-slate-200">Galuh panca wirasa</span> Framework Used <span class="text-blue-400 font-semibold">Tailwind CSS </span>&reg;</h3>
                     <div class="flex gap-1 items-center">
                         <h3 class="font-semibold">My Account Github</h3>
                         <a href="https://github.com/GaluhPncWirs" target="_blank">
@@ -142,16 +143,5 @@
     </main>
 
 </body>
-<script>
-    const modeHp = document.querySelector('#mode-hp');
-    const navGeser = document.querySelector('nav ul');
-    const blur_main = document.querySelector('main');
-    modeHp.addEventListener('click', function() {
-        modeHp.classList.toggle('active');
-        navGeser.classList.toggle('geser');
-        blur_main.classList.toggle('blur')
-    });
-
-
-</script>
+<script src="/JS/script.js"></script>
 </html>
